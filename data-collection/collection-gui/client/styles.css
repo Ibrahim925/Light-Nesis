@@ -1,0 +1,37 @@
+* {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+	background-color: whitesmoke;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.input {
+	background-color: "black"
+}
+
+#inputs {
+	background-color: #E5E5E5;
+	padding: 9px;
+	margin: 0;
+	width: calc(70% - 10px);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 15px;
+}
+
+#video-mask {
+	border-radius: 25px;
+	overflow: hidden;
+	width: 1000px;
+	height: 69%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}

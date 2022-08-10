@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Walnut | Data Collection
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+
+	<body>
+		<h1 id='header'>Walnut Data Collection</h1>
+
+		<br />
+		
+		<div id="video-mask">
+		    <video width="1000" controls id="video">
+			    <source src="../../prompts/Left.mp4" type="video/mp4">
+			    Your browser does not support the video tag.
+		    </video>
+		</div>
+
+		<div id="inputs">
+			<input placeholder="Participant number" type="number" id="participant-number-input" />
+			<input placeholder="Direction run" type="number" id="run-input" />
+			<select id="sex-select">
+				<option value="Select" selected disabled hidden>Select a sex</option>
+				<option value="male">male</option>
+				<option value="female">female</option>
+			</select>
+			<select id="direction-select">
+				<option value="Select" selected disabled hidden>Select a direction</option>
+				<option value="Left">Left</option>
+				<option value="None">None</option>
+				<option value="Right">Right</option>
+			</select>
+
+			<button id="run-button">Start</button>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
+
+
+
+
+

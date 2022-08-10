@@ -23,7 +23,7 @@ def collect_data(sex, participant, direction, run):
         data = board.get_board_data()  # get all data and remove it from internal buffer
         board.stop_stream()
         board.release_session()
-        dir_path = os.path.join("..", "..", "data", sex, participant, direction)
+        dir_path = os.path.join("..", "..", "..", "data", sex, participant, direction)
         file_path = os.path.join(dir_path, run + ext)
 
         if not os.path.exists(dir_path):
