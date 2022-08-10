@@ -42,7 +42,7 @@ runButton.onclick = () => {
 		} else {
 			setMessage("Streaming ended. Data collected successfully!")
 		}
-	})
+	}).catch(err => setMessage("Could not connect to server"))
 }
 
 function setMessage(message) {
