@@ -1,6 +1,7 @@
 const runButton = document.getElementById("run-button")
 
 runButton.onclick = () => {
+	setMessage("");
 	const video = document.getElementById("video")
 	const direction = document.getElementById("direction-select").value
 	const participant = document.getElementById("participant-number-input").value
